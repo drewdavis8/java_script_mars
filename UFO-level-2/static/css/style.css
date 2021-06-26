@@ -28,6 +28,7 @@ body {
   left: 0;
   min-height: 100px;
   background: #4e5d6c;
+  color: yellowgreen
 }
 
 /* The code styles the text at the bottom of the footer */
@@ -51,7 +52,7 @@ body {
   bottom: 5px;
   left: 150px;
   width: 35px;
-  color: greenyellow;
+  color: white;
 }
 
 /* Adding styles to the aside and filter form */
@@ -67,13 +68,14 @@ body {
 
 .filters {
   margin-top: 10px;
+  color: yellowgreen
 }
 
 select {
   display: block;
   width: 100%;
   padding: 50px;
-  color: red;
+  border-color: red;
   outline: 20px;
   outline-width:20px ;
 }
@@ -133,7 +135,7 @@ select {
 /* input placeholder color changes */
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #8e979f;
+  color: black;
 }
 
 .form-control::-moz-placeholder {
