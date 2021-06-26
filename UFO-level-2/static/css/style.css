@@ -51,7 +51,7 @@ body {
   bottom: 5px;
   left: 150px;
   width: 35px;
-  color: white;
+  color: greenyellow;
 }
 
 /* Adding styles to the aside and filter form */
@@ -61,6 +61,8 @@ body {
 
 .filters .panel-body {
   padding: 0;
+  color: whitesmoke;
+  border: greenyellow;
 }
 
 .filters {
@@ -70,9 +72,10 @@ body {
 select {
   display: block;
   width: 100%;
-  padding: 8px;
-  color: skyblue;
+  padding: 50px;
+  color: red;
   outline: 20px;
+  outline-width:20px ;
 }
 
 #table-area th {
