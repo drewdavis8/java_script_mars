@@ -27,8 +27,8 @@ body {
   bottom: 0;
   left: 0;
   min-height: 100px;
-  background: #4e5d6c;
-  color: yellowgreen
+  background:yellowgreen;
+  color: whitesmoke
 }
 
 /* The code styles the text at the bottom of the footer */
@@ -58,26 +58,28 @@ body {
 /* Adding styles to the aside and filter form */
 .ufo-form {
   margin-top: 50px;
+  color: yellowgreen;
 }
 
 .filters .panel-body {
   padding: 0;
   color: whitesmoke;
-  border: greenyellow;
+  border-width: 50px;
+  border-color: greenyellow;
 }
 
 .filters {
   margin-top: 10px;
-  color: yellowgreen
+  color: yellowgreen;
 }
 
 select {
   display: block;
   width: 100%;
   padding: 50px;
-  border-color: red;
-  outline: 20px;
-  outline-width:20px ;
+  outline: 50px;
+  outline-width:20px;
+  outline-color: chartreuse;
 }
 
 #table-area th {
