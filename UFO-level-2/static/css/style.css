@@ -3,12 +3,14 @@
   font-family: Ubuntu, sans-serif;
 }
 
+
 html,
 body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
+
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
 .wrapper {
@@ -69,8 +71,8 @@ select {
   display: block;
   width: 100%;
   padding: 8px;
-  color: #8e979f;
-  outline: none;
+  color: skyblue;
+  outline: 20px;
 }
 
 #table-area th {
@@ -89,6 +91,14 @@ select {
 
 .margin-top-50 {
   margin-top: 50px;
+}
+
+.right_padding {
+  padding-right: 50px;
+}
+
+.left_padding {
+  padding-left: 50px;
 }
 
 /* The styles for the parallax */
@@ -116,50 +126,7 @@ select {
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
 }
-/* Dropdown Button */
-.dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: left;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
 /* input placeholder color changes */
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -209,7 +176,7 @@ select {
     height: 1px;
     margin-top: 20px;
     content: " ";
-    background: aliceblue;
+    background: skyblue;
   }
 
   #table-area td {
